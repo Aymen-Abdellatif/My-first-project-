@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="Myproject.css">
+ <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+</head>
+<body>*/*
+	
+
+<div id="container">
+  <h1>Tip Calculator</h1>
+  <div id="calculator">
+    <form>
+      <p>How much was your bill?
+        <p>
+          DT <input id="amount" type="text" placeholder="Amount">
+
+          <p>How was your service?
+            <p>
+              <select id="serviceQual">
+                <option disabled selected value="0">-- Choose an Option --</option>
+                <option value="0.3">30 %; Exellent</option>
+                <option value="0.2">20 %; Good</option>
+                <option value="0.15">15 %; It was OK</option>
+                <option value="0.1">10 %; Bad</option>
+                <option value="0.05">5%; Terrible</option>
+              </select>
+
+    </form>
+    <p>How many people are sharing the bill?</p>
+    <input id="people" type="text" placeholder="Number of People"> 
+    <button type="button" id="cal">Calculate!</button>
+
+  </div>
+
+  <div id="total">
+    <sup>DT</sup><span id="tip">0.00</span>
+    <small id="each">each</small>
+  </div>
+
+</div>
+
+
+<script type="text/javascript" src="Myproject.js"></script>
+</body>
+</html>
